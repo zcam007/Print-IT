@@ -50,7 +50,9 @@
 	  
 	<main>
 	  <!--site header-->
-	 <div><?php include($fluid_wallpaper); ?></div>
+	 <div><?php 
+	 if($fluid_wallpaper!=null){
+	 include($fluid_wallpaper); }?></div>
 	 
 	  <!--end site header-->
 	  
