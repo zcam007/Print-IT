@@ -50,10 +50,7 @@
 	  
 	<main>
 	  <!--site header-->
-	 <div><?php 
-	 if($fluid_wallpaper!=null){
-	 include($fluid_wallpaper); }?></div>
-	 
+	 <div><?php if($fluid_wallpaper!=null){include($fluid_wallpaper); }?></div>
 	  <!--end site header-->
 	  
 	  <div><?php include($page_content);?></div>
@@ -82,6 +79,7 @@
 	<script src="vendors/jquery-countdown/dist/jquery.countdown.js"></script>
 	<script src="vendors/jquery-countdown/dist/jquery.final-countdown.js"></script>
 	<script src="vendors/jquery-countdown/dist/kinetic.js"></script>
+	<script src="assets/js/custom_main.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script>(function(b,o,i,l,e,r){b.GoogleAsnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create','UA-57387972-1');ga('send','pageview');</script>
   </body>
